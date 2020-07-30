@@ -1,7 +1,7 @@
 class Hello {
-  world({response}: any) {
-    response.body = "Hello world!"
+  world({ response }: any) {
+    response.body = "Hello world!";
   }
 }
 
-export default new Hello()
+export default new Hello();
